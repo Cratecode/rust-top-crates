@@ -5,79 +5,9 @@
     "id": "actix"
   },
   {
-    "name": "actix-codec",
-    "version": "0.5.1",
-    "id": "actix_codec"
-  },
-  {
-    "name": "actix_derive",
-    "version": "0.6.0",
-    "id": "actix_derive"
-  },
-  {
-    "name": "actix-http",
-    "version": "3.3.1",
-    "id": "actix_http"
-  },
-  {
-    "name": "actix-macros",
-    "version": "0.2.4",
-    "id": "actix_macros"
-  },
-  {
-    "name": "actix-router",
-    "version": "0.5.1",
-    "id": "actix_router"
-  },
-  {
-    "name": "actix-rt",
-    "version": "2.8.0",
-    "id": "actix_rt"
-  },
-  {
-    "name": "actix-server",
-    "version": "2.2.0",
-    "id": "actix_server"
-  },
-  {
-    "name": "actix-service",
-    "version": "2.0.2",
-    "id": "actix_service"
-  },
-  {
-    "name": "actix-utils",
-    "version": "3.0.1",
-    "id": "actix_utils"
-  },
-  {
     "name": "actix-web",
     "version": "4.3.1",
     "id": "actix_web"
-  },
-  {
-    "name": "actix-web-codegen",
-    "version": "4.2.0",
-    "id": "actix_web_codegen"
-  },
-  {
-    "name": "addr2line",
-    "version": "0.20.0",
-    "id": "addr2line"
-  },
-  {
-    "name": "adler",
-    "version": "1.0.2",
-    "id": "adler"
-  },
-  {
-    "name": "ahash",
-    "version": "0.8.3",
-    "id": "ahash"
-  },
-  {
-    "name": "ahash",
-    "version": "0.7.6",
-    "id": "ahash_0_7_6"
   },
   {
     "name": "aho-corasick",
@@ -85,44 +15,9 @@
     "id": "aho_corasick"
   },
   {
-    "name": "alloc-no-stdlib",
-    "version": "2.0.4",
-    "id": "alloc_no_stdlib"
-  },
-  {
-    "name": "alloc-stdlib",
-    "version": "0.2.2",
-    "id": "alloc_stdlib"
-  },
-  {
-    "name": "allocator-api2",
-    "version": "0.2.16",
-    "id": "allocator_api2"
-  },
-  {
     "name": "ansi_term",
     "version": "0.12.1",
     "id": "ansi_term"
-  },
-  {
-    "name": "anstream",
-    "version": "0.3.2",
-    "id": "anstream"
-  },
-  {
-    "name": "anstyle",
-    "version": "1.0.1",
-    "id": "anstyle"
-  },
-  {
-    "name": "anstyle-parse",
-    "version": "0.2.1",
-    "id": "anstyle_parse"
-  },
-  {
-    "name": "anstyle-query",
-    "version": "1.0.0",
-    "id": "anstyle_query"
   },
   {
     "name": "anyhow",
@@ -135,11 +30,6 @@
     "id": "approx"
   },
   {
-    "name": "arc-swap",
-    "version": "1.6.0",
-    "id": "arc_swap"
-  },
-  {
     "name": "async-recursion",
     "version": "1.0.4",
     "id": "async_recursion"
@@ -148,11 +38,6 @@
     "name": "async-trait",
     "version": "0.1.72",
     "id": "async_trait"
-  },
-  {
-    "name": "atomic",
-    "version": "0.5.3",
-    "id": "atomic"
   },
   {
     "name": "atty",
@@ -170,34 +55,9 @@
     "id": "axum"
   },
   {
-    "name": "axum-core",
-    "version": "0.3.4",
-    "id": "axum_core"
-  },
-  {
-    "name": "backtrace",
-    "version": "0.3.68",
-    "id": "backtrace"
-  },
-  {
     "name": "base64",
     "version": "0.21.2",
     "id": "base64"
-  },
-  {
-    "name": "bit_field",
-    "version": "0.10.2",
-    "id": "bit_field"
-  },
-  {
-    "name": "bit-set",
-    "version": "0.5.3",
-    "id": "bit_set"
-  },
-  {
-    "name": "bit-vec",
-    "version": "0.6.3",
-    "id": "bit_vec"
   },
   {
     "name": "bitflags",
@@ -205,34 +65,9 @@
     "id": "bitflags"
   },
   {
-    "name": "bitflags",
-    "version": "1.3.2",
-    "id": "bitflags_1_3_2"
-  },
-  {
     "name": "block-buffer",
     "version": "0.10.4",
     "id": "block_buffer"
-  },
-  {
-    "name": "brotli",
-    "version": "3.3.4",
-    "id": "brotli"
-  },
-  {
-    "name": "brotli-decompressor",
-    "version": "2.3.4",
-    "id": "brotli_decompressor"
-  },
-  {
-    "name": "bytemuck",
-    "version": "1.13.1",
-    "id": "bytemuck"
-  },
-  {
-    "name": "bytemuck_derive",
-    "version": "1.4.1",
-    "id": "bytemuck_derive"
   },
   {
     "name": "byteorder",
@@ -243,16 +78,6 @@
     "name": "bytes",
     "version": "1.4.0",
     "id": "bytes"
-  },
-  {
-    "name": "bytes",
-    "version": "0.4.12",
-    "id": "bytes_0_4_12"
-  },
-  {
-    "name": "bytestring",
-    "version": "1.3.0",
-    "id": "bytestring"
   },
   {
     "name": "cc",
@@ -275,56 +100,6 @@
     "id": "clap"
   },
   {
-    "name": "clap_builder",
-    "version": "4.3.19",
-    "id": "clap_builder"
-  },
-  {
-    "name": "clap_derive",
-    "version": "4.3.12",
-    "id": "clap_derive"
-  },
-  {
-    "name": "clap_lex",
-    "version": "0.5.0",
-    "id": "clap_lex"
-  },
-  {
-    "name": "color_quant",
-    "version": "1.1.0",
-    "id": "color_quant"
-  },
-  {
-    "name": "colorchoice",
-    "version": "1.0.0",
-    "id": "colorchoice"
-  },
-  {
-    "name": "convert_case",
-    "version": "0.4.0",
-    "id": "convert_case"
-  },
-  {
-    "name": "cookie",
-    "version": "0.16.2",
-    "id": "cookie"
-  },
-  {
-    "name": "cookie_store",
-    "version": "0.16.2",
-    "id": "cookie_store"
-  },
-  {
-    "name": "cpufeatures",
-    "version": "0.2.9",
-    "id": "cpufeatures"
-  },
-  {
-    "name": "crc32fast",
-    "version": "1.3.2",
-    "id": "crc32fast"
-  },
-  {
     "name": "crossbeam",
     "version": "0.8.2",
     "id": "crossbeam"
@@ -335,19 +110,9 @@
     "id": "crossbeam_channel"
   },
   {
-    "name": "crossbeam-deque",
-    "version": "0.8.3",
-    "id": "crossbeam_deque"
-  },
-  {
     "name": "crossbeam-epoch",
     "version": "0.9.15",
     "id": "crossbeam_epoch"
-  },
-  {
-    "name": "crossbeam-queue",
-    "version": "0.3.8",
-    "id": "crossbeam_queue"
   },
   {
     "name": "crossbeam-utils",
@@ -355,44 +120,14 @@
     "id": "crossbeam_utils"
   },
   {
-    "name": "crypto-common",
-    "version": "0.1.6",
-    "id": "crypto_common"
-  },
-  {
     "name": "csv",
     "version": "1.2.2",
     "id": "csv"
   },
   {
-    "name": "csv-core",
-    "version": "0.1.10",
-    "id": "csv_core"
-  },
-  {
     "name": "data-encoding",
     "version": "2.4.0",
     "id": "data_encoding"
-  },
-  {
-    "name": "new_debug_unreachable",
-    "version": "1.0.4",
-    "id": "debug_unreachable"
-  },
-  {
-    "name": "derivative",
-    "version": "2.2.0",
-    "id": "derivative"
-  },
-  {
-    "name": "derive_more",
-    "version": "0.99.17",
-    "id": "derive_more"
-  },
-  {
-    "name": "destructure_traitobject",
-    "version": "0.2.0",
-    "id": "destructure_traitobject"
   },
   {
     "name": "digest",
@@ -405,19 +140,9 @@
     "id": "either"
   },
   {
-    "name": "encoding_rs",
-    "version": "0.8.32",
-    "id": "encoding_rs"
-  },
-  {
     "name": "env_logger",
     "version": "0.10.0",
     "id": "env_logger"
-  },
-  {
-    "name": "equivalent",
-    "version": "1.0.1",
-    "id": "equivalent"
   },
   {
     "name": "error-chain",
@@ -425,49 +150,9 @@
     "id": "error_chain"
   },
   {
-    "name": "exr",
-    "version": "1.7.0",
-    "id": "exr"
-  },
-  {
-    "name": "fallible-iterator",
-    "version": "0.2.0",
-    "id": "fallible_iterator"
-  },
-  {
-    "name": "fallible-streaming-iterator",
-    "version": "0.1.9",
-    "id": "fallible_streaming_iterator"
-  },
-  {
-    "name": "fastrand",
-    "version": "2.0.0",
-    "id": "fastrand"
-  },
-  {
-    "name": "fdeflate",
-    "version": "0.3.0",
-    "id": "fdeflate"
-  },
-  {
-    "name": "filetime",
-    "version": "0.2.21",
-    "id": "filetime"
-  },
-  {
-    "name": "fixedbitset",
-    "version": "0.4.2",
-    "id": "fixedbitset"
-  },
-  {
     "name": "flate2",
     "version": "1.0.26",
     "id": "flate2"
-  },
-  {
-    "name": "flume",
-    "version": "0.10.14",
-    "id": "flume"
   },
   {
     "name": "fnv",
@@ -475,34 +160,9 @@
     "id": "fnv"
   },
   {
-    "name": "foreign-types",
-    "version": "0.3.2",
-    "id": "foreign_types"
-  },
-  {
-    "name": "foreign-types-shared",
-    "version": "0.1.1",
-    "id": "foreign_types_shared"
-  },
-  {
-    "name": "form_urlencoded",
-    "version": "1.2.0",
-    "id": "form_urlencoded"
-  },
-  {
-    "name": "futf",
-    "version": "0.1.5",
-    "id": "futf"
-  },
-  {
     "name": "futures",
     "version": "0.3.28",
     "id": "futures"
-  },
-  {
-    "name": "futures",
-    "version": "0.1.31",
-    "id": "futures_0_1_31"
   },
   {
     "name": "futures-channel",
@@ -515,19 +175,9 @@
     "id": "futures_core"
   },
   {
-    "name": "futures-executor",
-    "version": "0.3.28",
-    "id": "futures_executor"
-  },
-  {
     "name": "futures-io",
     "version": "0.3.28",
     "id": "futures_io"
-  },
-  {
-    "name": "futures-macro",
-    "version": "0.3.28",
-    "id": "futures_macro"
   },
   {
     "name": "futures-sink",
@@ -555,29 +205,9 @@
     "id": "getrandom"
   },
   {
-    "name": "gif",
-    "version": "0.12.0",
-    "id": "gif"
-  },
-  {
-    "name": "gimli",
-    "version": "0.27.3",
-    "id": "gimli"
-  },
-  {
     "name": "glob",
     "version": "0.3.1",
     "id": "glob"
-  },
-  {
-    "name": "h2",
-    "version": "0.3.20",
-    "id": "h2"
-  },
-  {
-    "name": "half",
-    "version": "2.2.1",
-    "id": "half"
   },
   {
     "name": "hashbrown",
@@ -585,34 +215,9 @@
     "id": "hashbrown"
   },
   {
-    "name": "hashbrown",
-    "version": "0.12.3",
-    "id": "hashbrown_0_12_3"
-  },
-  {
-    "name": "hashlink",
-    "version": "0.8.3",
-    "id": "hashlink"
-  },
-  {
-    "name": "hdrhistogram",
-    "version": "7.5.2",
-    "id": "hdrhistogram"
-  },
-  {
     "name": "heck",
     "version": "0.4.1",
     "id": "heck"
-  },
-  {
-    "name": "hmac",
-    "version": "0.12.1",
-    "id": "hmac"
-  },
-  {
-    "name": "html5ever",
-    "version": "0.26.0",
-    "id": "html5ever"
   },
   {
     "name": "http",
@@ -620,24 +225,9 @@
     "id": "http"
   },
   {
-    "name": "http-body",
-    "version": "0.4.5",
-    "id": "http_body"
-  },
-  {
     "name": "httparse",
     "version": "1.8.0",
     "id": "httparse"
-  },
-  {
-    "name": "httpdate",
-    "version": "1.0.2",
-    "id": "httpdate"
-  },
-  {
-    "name": "humantime",
-    "version": "2.1.0",
-    "id": "humantime"
   },
   {
     "name": "hyper",
@@ -645,29 +235,9 @@
     "id": "hyper"
   },
   {
-    "name": "hyper-tls",
-    "version": "0.5.0",
-    "id": "hyper_tls"
-  },
-  {
-    "name": "iana-time-zone",
-    "version": "0.1.57",
-    "id": "iana_time_zone"
-  },
-  {
     "name": "idna",
     "version": "0.4.0",
     "id": "idna"
-  },
-  {
-    "name": "idna",
-    "version": "0.2.3",
-    "id": "idna_0_2_3"
-  },
-  {
-    "name": "idna",
-    "version": "0.3.0",
-    "id": "idna_0_3_0"
   },
   {
     "name": "image",
@@ -680,31 +250,6 @@
     "id": "indexmap"
   },
   {
-    "name": "indexmap",
-    "version": "1.9.3",
-    "id": "indexmap_1_9_3"
-  },
-  {
-    "name": "io-lifetimes",
-    "version": "1.0.11",
-    "id": "io_lifetimes"
-  },
-  {
-    "name": "iovec",
-    "version": "0.1.4",
-    "id": "iovec"
-  },
-  {
-    "name": "ipnet",
-    "version": "2.8.0",
-    "id": "ipnet"
-  },
-  {
-    "name": "is-terminal",
-    "version": "0.4.9",
-    "id": "is_terminal"
-  },
-  {
     "name": "itertools",
     "version": "0.11.0",
     "id": "itertools"
@@ -715,69 +260,14 @@
     "id": "itoa"
   },
   {
-    "name": "jobserver",
-    "version": "0.1.26",
-    "id": "jobserver"
-  },
-  {
-    "name": "jpeg-decoder",
-    "version": "0.3.0",
-    "id": "jpeg_decoder"
-  },
-  {
-    "name": "language-tags",
-    "version": "0.3.2",
-    "id": "language_tags"
-  },
-  {
     "name": "lazy_static",
     "version": "1.4.0",
     "id": "lazy_static"
   },
   {
-    "name": "lebe",
-    "version": "0.5.2",
-    "id": "lebe"
-  },
-  {
     "name": "libc",
     "version": "0.2.147",
     "id": "libc"
-  },
-  {
-    "name": "libm",
-    "version": "0.2.7",
-    "id": "libm"
-  },
-  {
-    "name": "libsqlite3-sys",
-    "version": "0.26.0",
-    "id": "libsqlite3_sys"
-  },
-  {
-    "name": "linked-hash-map",
-    "version": "0.5.6",
-    "id": "linked_hash_map"
-  },
-  {
-    "name": "linux-raw-sys",
-    "version": "0.4.3",
-    "id": "linux_raw_sys"
-  },
-  {
-    "name": "linux-raw-sys",
-    "version": "0.3.8",
-    "id": "linux_raw_sys_0_3_8"
-  },
-  {
-    "name": "local-channel",
-    "version": "0.1.3",
-    "id": "local_channel"
-  },
-  {
-    "name": "local-waker",
-    "version": "0.1.3",
-    "id": "local_waker"
   },
   {
     "name": "lock_api",
@@ -793,46 +283,6 @@
     "name": "log4rs",
     "version": "1.2.0",
     "id": "log4rs"
-  },
-  {
-    "name": "log-mdc",
-    "version": "0.1.0",
-    "id": "log_mdc"
-  },
-  {
-    "name": "mac",
-    "version": "0.1.1",
-    "id": "mac"
-  },
-  {
-    "name": "markup5ever",
-    "version": "0.11.0",
-    "id": "markup5ever"
-  },
-  {
-    "name": "markup5ever_rcdom",
-    "version": "0.2.0",
-    "id": "markup5ever_rcdom"
-  },
-  {
-    "name": "matches",
-    "version": "0.1.10",
-    "id": "matches"
-  },
-  {
-    "name": "matchit",
-    "version": "0.7.1",
-    "id": "matchit"
-  },
-  {
-    "name": "matrixmultiply",
-    "version": "0.3.7",
-    "id": "matrixmultiply"
-  },
-  {
-    "name": "md-5",
-    "version": "0.10.5",
-    "id": "md5"
   },
   {
     "name": "memchr",
@@ -855,16 +305,6 @@
     "id": "mime"
   },
   {
-    "name": "mime_guess",
-    "version": "2.0.4",
-    "id": "mime_guess"
-  },
-  {
-    "name": "minimal-lexical",
-    "version": "0.2.1",
-    "id": "minimal_lexical"
-  },
-  {
     "name": "miniz_oxide",
     "version": "0.7.1",
     "id": "miniz_oxide"
@@ -875,29 +315,9 @@
     "id": "mio"
   },
   {
-    "name": "multer",
-    "version": "2.1.0",
-    "id": "multer"
-  },
-  {
     "name": "nalgebra",
     "version": "0.32.3",
     "id": "nalgebra"
-  },
-  {
-    "name": "nalgebra-macros",
-    "version": "0.2.1",
-    "id": "nalgebra_macros"
-  },
-  {
-    "name": "nanorand",
-    "version": "0.7.0",
-    "id": "nanorand"
-  },
-  {
-    "name": "native-tls",
-    "version": "0.2.11",
-    "id": "native_tls"
   },
   {
     "name": "ndarray",
@@ -915,16 +335,6 @@
     "id": "num"
   },
   {
-    "name": "num-bigint",
-    "version": "0.4.3",
-    "id": "num_bigint"
-  },
-  {
-    "name": "num-complex",
-    "version": "0.4.3",
-    "id": "num_complex"
-  },
-  {
     "name": "num_cpus",
     "version": "1.16.0",
     "id": "num_cpus"
@@ -935,54 +345,14 @@
     "id": "num_integer"
   },
   {
-    "name": "num-iter",
-    "version": "0.1.43",
-    "id": "num_iter"
-  },
-  {
-    "name": "num-rational",
-    "version": "0.4.1",
-    "id": "num_rational"
-  },
-  {
     "name": "num-traits",
     "version": "0.2.16",
     "id": "num_traits"
   },
   {
-    "name": "object",
-    "version": "0.31.1",
-    "id": "object"
-  },
-  {
     "name": "once_cell",
     "version": "1.18.0",
     "id": "once_cell"
-  },
-  {
-    "name": "openssl",
-    "version": "0.10.55",
-    "id": "openssl"
-  },
-  {
-    "name": "openssl-macros",
-    "version": "0.1.1",
-    "id": "openssl_macros"
-  },
-  {
-    "name": "openssl-probe",
-    "version": "0.1.5",
-    "id": "openssl_probe"
-  },
-  {
-    "name": "openssl-sys",
-    "version": "0.9.90",
-    "id": "openssl_sys"
-  },
-  {
-    "name": "ordered-float",
-    "version": "2.10.0",
-    "id": "ordered_float"
   },
   {
     "name": "parking_lot",
@@ -995,11 +365,6 @@
     "id": "parking_lot_core"
   },
   {
-    "name": "paste",
-    "version": "1.0.14",
-    "id": "paste"
-  },
-  {
     "name": "percent-encoding",
     "version": "2.3.0",
     "id": "percent_encoding"
@@ -1008,56 +373,6 @@
     "name": "petgraph",
     "version": "0.6.3",
     "id": "petgraph"
-  },
-  {
-    "name": "phf",
-    "version": "0.11.2",
-    "id": "phf"
-  },
-  {
-    "name": "phf",
-    "version": "0.10.1",
-    "id": "phf_0_10_1"
-  },
-  {
-    "name": "phf_codegen",
-    "version": "0.10.0",
-    "id": "phf_codegen"
-  },
-  {
-    "name": "phf_generator",
-    "version": "0.11.2",
-    "id": "phf_generator"
-  },
-  {
-    "name": "phf_generator",
-    "version": "0.10.0",
-    "id": "phf_generator_0_10_0"
-  },
-  {
-    "name": "phf_macros",
-    "version": "0.11.2",
-    "id": "phf_macros"
-  },
-  {
-    "name": "phf_shared",
-    "version": "0.11.2",
-    "id": "phf_shared"
-  },
-  {
-    "name": "phf_shared",
-    "version": "0.10.0",
-    "id": "phf_shared_0_10_0"
-  },
-  {
-    "name": "pin-project",
-    "version": "1.1.2",
-    "id": "pin_project"
-  },
-  {
-    "name": "pin-project-internal",
-    "version": "1.1.2",
-    "id": "pin_project_internal"
   },
   {
     "name": "pin-project-lite",
@@ -1075,24 +390,9 @@
     "id": "pkg_config"
   },
   {
-    "name": "png",
-    "version": "0.17.9",
-    "id": "png"
-  },
-  {
     "name": "postgres",
     "version": "0.19.5",
     "id": "postgres"
-  },
-  {
-    "name": "postgres-protocol",
-    "version": "0.6.5",
-    "id": "postgres_protocol"
-  },
-  {
-    "name": "postgres-types",
-    "version": "0.2.5",
-    "id": "postgres_types"
   },
   {
     "name": "ppv-lite86",
@@ -1100,29 +400,9 @@
     "id": "ppv_lite86"
   },
   {
-    "name": "precomputed-hash",
-    "version": "0.1.1",
-    "id": "precomputed_hash"
-  },
-  {
     "name": "proc-macro2",
     "version": "1.0.66",
     "id": "proc_macro2"
-  },
-  {
-    "name": "psl-types",
-    "version": "2.0.11",
-    "id": "psl_types"
-  },
-  {
-    "name": "publicsuffix",
-    "version": "2.2.3",
-    "id": "publicsuffix"
-  },
-  {
-    "name": "qoi",
-    "version": "0.4.1",
-    "id": "qoi"
   },
   {
     "name": "quote",
@@ -1150,29 +430,14 @@
     "id": "rand_distr"
   },
   {
-    "name": "rawpointer",
-    "version": "0.2.1",
-    "id": "rawpointer"
-  },
-  {
     "name": "rayon",
     "version": "1.7.0",
     "id": "rayon"
   },
   {
-    "name": "rayon-core",
-    "version": "1.11.0",
-    "id": "rayon_core"
-  },
-  {
     "name": "regex",
     "version": "1.9.1",
     "id": "regex"
-  },
-  {
-    "name": "regex-automata",
-    "version": "0.3.4",
-    "id": "regex_automata"
   },
   {
     "name": "regex-syntax",
@@ -1195,39 +460,14 @@
     "id": "rusqlite"
   },
   {
-    "name": "rustc-demangle",
-    "version": "0.1.23",
-    "id": "rustc_demangle"
-  },
-  {
     "name": "rustc_version",
     "version": "0.4.0",
     "id": "rustc_version"
   },
   {
-    "name": "rustix",
-    "version": "0.38.4",
-    "id": "rustix"
-  },
-  {
-    "name": "rustix",
-    "version": "0.37.23",
-    "id": "rustix_0_37_23"
-  },
-  {
-    "name": "rustversion",
-    "version": "1.0.14",
-    "id": "rustversion"
-  },
-  {
     "name": "ryu",
     "version": "1.0.15",
     "id": "ryu"
-  },
-  {
-    "name": "safe_arch",
-    "version": "0.7.1",
-    "id": "safe_arch"
   },
   {
     "name": "same-file",
@@ -1265,64 +505,9 @@
     "id": "serde_json"
   },
   {
-    "name": "serde_path_to_error",
-    "version": "0.1.14",
-    "id": "serde_path_to_error"
-  },
-  {
-    "name": "serde_spanned",
-    "version": "0.6.3",
-    "id": "serde_spanned"
-  },
-  {
-    "name": "serde_urlencoded",
-    "version": "0.7.1",
-    "id": "serde_urlencoded"
-  },
-  {
-    "name": "serde-value",
-    "version": "0.7.0",
-    "id": "serde_value"
-  },
-  {
-    "name": "serde_yaml",
-    "version": "0.8.26",
-    "id": "serde_yaml"
-  },
-  {
-    "name": "sha1",
-    "version": "0.10.5",
-    "id": "sha1"
-  },
-  {
-    "name": "sha1_smol",
-    "version": "1.0.0",
-    "id": "sha1_smol"
-  },
-  {
     "name": "sha2",
     "version": "0.10.7",
     "id": "sha2"
-  },
-  {
-    "name": "signal-hook-registry",
-    "version": "1.4.1",
-    "id": "signal_hook_registry"
-  },
-  {
-    "name": "simba",
-    "version": "0.8.1",
-    "id": "simba"
-  },
-  {
-    "name": "simd-adler32",
-    "version": "0.3.7",
-    "id": "simd_adler32"
-  },
-  {
-    "name": "siphasher",
-    "version": "0.3.10",
-    "id": "siphasher"
   },
   {
     "name": "slab",
@@ -1335,44 +520,9 @@
     "id": "smallvec"
   },
   {
-    "name": "smawk",
-    "version": "0.3.1",
-    "id": "smawk"
-  },
-  {
     "name": "socket2",
     "version": "0.5.3",
     "id": "socket2"
-  },
-  {
-    "name": "socket2",
-    "version": "0.4.9",
-    "id": "socket2_0_4_9"
-  },
-  {
-    "name": "spin",
-    "version": "0.9.8",
-    "id": "spin"
-  },
-  {
-    "name": "spin",
-    "version": "0.5.2",
-    "id": "spin_0_5_2"
-  },
-  {
-    "name": "string_cache",
-    "version": "0.8.7",
-    "id": "string_cache"
-  },
-  {
-    "name": "string_cache_codegen",
-    "version": "0.5.2",
-    "id": "string_cache_codegen"
-  },
-  {
-    "name": "stringprep",
-    "version": "0.1.3",
-    "id": "stringprep"
   },
   {
     "name": "strsim",
@@ -1380,24 +530,9 @@
     "id": "strsim"
   },
   {
-    "name": "subtle",
-    "version": "2.5.0",
-    "id": "subtle"
-  },
-  {
     "name": "syn",
     "version": "2.0.27",
     "id": "syn"
-  },
-  {
-    "name": "syn",
-    "version": "1.0.109",
-    "id": "syn_1_0_109"
-  },
-  {
-    "name": "sync_wrapper",
-    "version": "0.1.2",
-    "id": "sync_wrapper"
   },
   {
     "name": "tar",
@@ -1410,19 +545,9 @@
     "id": "tempfile"
   },
   {
-    "name": "tendril",
-    "version": "0.4.3",
-    "id": "tendril"
-  },
-  {
     "name": "termcolor",
     "version": "1.2.0",
     "id": "termcolor"
-  },
-  {
-    "name": "terminal_size",
-    "version": "0.2.6",
-    "id": "terminal_size"
   },
   {
     "name": "textwrap",
@@ -1440,11 +565,6 @@
     "id": "thiserror_impl"
   },
   {
-    "name": "thread-id",
-    "version": "4.1.0",
-    "id": "thread_id"
-  },
-  {
     "name": "thread_local",
     "version": "1.1.7",
     "id": "thread_local"
@@ -1455,29 +575,9 @@
     "id": "threadpool"
   },
   {
-    "name": "tiff",
-    "version": "0.8.1",
-    "id": "tiff"
-  },
-  {
     "name": "time",
     "version": "0.3.23",
     "id": "time"
-  },
-  {
-    "name": "time",
-    "version": "0.1.45",
-    "id": "time_0_1_45"
-  },
-  {
-    "name": "time-core",
-    "version": "0.1.1",
-    "id": "time_core"
-  },
-  {
-    "name": "time-macros",
-    "version": "0.2.10",
-    "id": "time_macros"
   },
   {
     "name": "tinyvec",
@@ -1485,39 +585,9 @@
     "id": "tinyvec"
   },
   {
-    "name": "tinyvec_macros",
-    "version": "0.1.1",
-    "id": "tinyvec_macros"
-  },
-  {
     "name": "tokio",
     "version": "1.29.1",
     "id": "tokio"
-  },
-  {
-    "name": "tokio-io",
-    "version": "0.1.13",
-    "id": "tokio_io"
-  },
-  {
-    "name": "tokio-macros",
-    "version": "2.1.0",
-    "id": "tokio_macros"
-  },
-  {
-    "name": "tokio-native-tls",
-    "version": "0.3.1",
-    "id": "tokio_native_tls"
-  },
-  {
-    "name": "tokio-postgres",
-    "version": "0.7.8",
-    "id": "tokio_postgres"
-  },
-  {
-    "name": "tokio-tungstenite",
-    "version": "0.19.0",
-    "id": "tokio_tungstenite"
   },
   {
     "name": "tokio-util",
@@ -1530,39 +600,9 @@
     "id": "toml"
   },
   {
-    "name": "toml_datetime",
-    "version": "0.6.3",
-    "id": "toml_datetime"
-  },
-  {
-    "name": "toml_edit",
-    "version": "0.19.14",
-    "id": "toml_edit"
-  },
-  {
-    "name": "tower",
-    "version": "0.4.13",
-    "id": "tower"
-  },
-  {
-    "name": "tower-layer",
-    "version": "0.3.2",
-    "id": "tower_layer"
-  },
-  {
-    "name": "tower-service",
-    "version": "0.3.2",
-    "id": "tower_service"
-  },
-  {
     "name": "tracing",
     "version": "0.1.37",
     "id": "tracing"
-  },
-  {
-    "name": "tracing-attributes",
-    "version": "0.1.26",
-    "id": "tracing_attributes"
   },
   {
     "name": "tracing-core",
@@ -1570,29 +610,9 @@
     "id": "tracing_core"
   },
   {
-    "name": "try-lock",
-    "version": "0.2.4",
-    "id": "try_lock"
-  },
-  {
-    "name": "tungstenite",
-    "version": "0.19.0",
-    "id": "tungstenite"
-  },
-  {
-    "name": "typemap-ors",
-    "version": "1.0.0",
-    "id": "typemap_ors"
-  },
-  {
     "name": "typenum",
     "version": "1.16.0",
     "id": "typenum"
-  },
-  {
-    "name": "unicase",
-    "version": "2.6.0",
-    "id": "unicase"
   },
   {
     "name": "unicode-bidi",
@@ -1603,11 +623,6 @@
     "name": "unicode-ident",
     "version": "1.0.11",
     "id": "unicode_ident"
-  },
-  {
-    "name": "unicode-linebreak",
-    "version": "0.1.5",
-    "id": "unicode_linebreak"
   },
   {
     "name": "unicode-normalization",
@@ -1630,39 +645,9 @@
     "id": "unicode_xid"
   },
   {
-    "name": "unsafe-any-ors",
-    "version": "1.0.0",
-    "id": "unsafe_any_ors"
-  },
-  {
-    "name": "untrusted",
-    "version": "0.7.1",
-    "id": "untrusted"
-  },
-  {
     "name": "url",
     "version": "2.4.0",
     "id": "url"
-  },
-  {
-    "name": "utf-8",
-    "version": "0.7.6",
-    "id": "utf8"
-  },
-  {
-    "name": "utf8parse",
-    "version": "0.2.1",
-    "id": "utf8parse"
-  },
-  {
-    "name": "uuid",
-    "version": "1.4.1",
-    "id": "uuid"
-  },
-  {
-    "name": "vcpkg",
-    "version": "0.2.15",
-    "id": "vcpkg"
   },
   {
     "name": "version_check",
@@ -1675,63 +660,8 @@
     "id": "walkdir"
   },
   {
-    "name": "want",
-    "version": "0.3.1",
-    "id": "want"
-  },
-  {
-    "name": "weezl",
-    "version": "0.1.7",
-    "id": "weezl"
-  },
-  {
-    "name": "wide",
-    "version": "0.7.11",
-    "id": "wide"
-  },
-  {
     "name": "winapi",
     "version": "0.3.9",
     "id": "winapi"
-  },
-  {
-    "name": "winnow",
-    "version": "0.5.1",
-    "id": "winnow"
-  },
-  {
-    "name": "xattr",
-    "version": "0.2.3",
-    "id": "xattr"
-  },
-  {
-    "name": "xml5ever",
-    "version": "0.17.0",
-    "id": "xml5ever"
-  },
-  {
-    "name": "yaml-rust",
-    "version": "0.4.5",
-    "id": "yaml_rust"
-  },
-  {
-    "name": "zstd",
-    "version": "0.12.4",
-    "id": "zstd"
-  },
-  {
-    "name": "zstd-safe",
-    "version": "6.0.6",
-    "id": "zstd_safe"
-  },
-  {
-    "name": "zstd-sys",
-    "version": "2.0.8+zstd.1.5.5",
-    "id": "zstd_sys"
-  },
-  {
-    "name": "zune-inflate",
-    "version": "0.2.54",
-    "id": "zune_inflate"
   }
 ]

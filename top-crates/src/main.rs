@@ -12,7 +12,6 @@ use std::{
 #[derive(Serialize)]
 struct TomlManifest {
     package: TomlPackage,
-    profile: Profiles,
     dependencies: BTreeMap<String, DependencySpec>,
 }
 
@@ -22,32 +21,6 @@ struct TomlPackage {
     name: String,
     version: String,
     edition: String,
-    resolver: String,
-}
-
-/// Profile used for build dependencies (build scripts, proc macros, and their
-/// dependencies).
-#[derive(Serialize)]
-#[serde(rename_all = "kebab-case")]
-struct BuildOverride {
-    codegen_units: u32,
-    debug: bool,
-}
-
-/// A profile section in a Cargo.toml file
-#[derive(Serialize)]
-#[serde(rename_all = "kebab-case")]
-struct Profile {
-    codegen_units: u32,
-    incremental: bool,
-    build_override: BuildOverride,
-}
-
-/// Available profile types
-#[derive(Serialize)]
-struct Profiles {
-    dev: Profile,
-    release: Profile,
 }
 
 fn main() {
@@ -63,27 +36,8 @@ fn main() {
     let manifest = TomlManifest {
         package: TomlPackage {
             name: "project".to_owned(),
-            version: "0.0.1".to_owned(),
+            version: "0.1.0".to_owned(),
             edition: "2021".to_owned(),
-            resolver: "2".to_owned(),
-        },
-        profile: Profiles {
-            dev: Profile {
-                codegen_units: 1,
-                incremental: false,
-                build_override: BuildOverride {
-                    codegen_units: 1,
-                    debug: true,
-                },
-            },
-            release: Profile {
-                codegen_units: 1,
-                incremental: false,
-                build_override: BuildOverride {
-                    codegen_units: 1,
-                    debug: false,
-                },
-            },
         },
         dependencies: dependencies.clone(),
     };

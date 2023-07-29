@@ -445,7 +445,7 @@ pub fn generate_info(
 
     loop {
         let num_crates_before = resolved_crates.len();
-        extend_direct_dependencies(&mut global, &mut resolved_crates);
+        // extend_direct_dependencies(&mut global, &mut resolved_crates);
         if num_crates_before == resolved_crates.len() {
             break;
         }
