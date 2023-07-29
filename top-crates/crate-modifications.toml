@@ -8,5 +8,5 @@ additions = [
     # Frameworks that should be available
     "actix",
     "actix-web",
-    "rocket"
+    "axum"
 ]
