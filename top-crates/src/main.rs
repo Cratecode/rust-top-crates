@@ -14,7 +14,6 @@ struct TomlManifest {
     package: TomlPackage,
     profile: Profiles,
     dependencies: BTreeMap<String, DependencySpec>,
-    build_dependencies: BTreeMap<String, DependencySpec>,
 }
 
 /// Header of Cargo.toml file.
@@ -22,7 +21,7 @@ struct TomlManifest {
 struct TomlPackage {
     name: String,
     version: String,
-    authors: Vec<String>,
+    edition: String,
     resolver: String,
 }
 
@@ -63,9 +62,9 @@ fn main() {
     // Construct playground's Cargo.toml.
     let manifest = TomlManifest {
         package: TomlPackage {
-            name: "playground".to_owned(),
+            name: "project".to_owned(),
             version: "0.0.1".to_owned(),
-            authors: vec!["The Rust Playground".to_owned()],
+            edition: "2021".to_owned(),
             resolver: "2".to_owned(),
         },
         profile: Profiles {
@@ -87,13 +86,12 @@ fn main() {
             },
         },
         dependencies: dependencies.clone(),
-        build_dependencies: dependencies,
     };
 
     // Write manifest file.
     let base_directory: PathBuf = std::env::args_os()
         .nth(1)
-        .unwrap_or_else(|| "../compiler/base".into())
+        .unwrap_or_else(|| "../output".into())
         .into();
 
     let cargo_toml = base_directory.join("Cargo.toml");
