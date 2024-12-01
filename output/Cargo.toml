@@ -5,19 +5,19 @@ edition = "2021"
 
 [dependencies.actix]
 package = "actix"
-version = "=0.13.3"
+version = "=0.13.5"
 
 [dependencies.actix_web]
 package = "actix-web"
-version = "=4.5.1"
+version = "=4.9.0"
 
 [dependencies.ahash]
 package = "ahash"
-version = "=0.8.9"
+version = "=0.8.11"
 
 [dependencies.aho_corasick]
 package = "aho-corasick"
-version = "=1.1.2"
+version = "=1.1.3"
 
 [dependencies.ansi_term]
 package = "ansi_term"
@@ -25,7 +25,7 @@ version = "=0.12.1"
 
 [dependencies.anyhow]
 package = "anyhow"
-version = "=1.0.80"
+version = "=1.0.93"
 
 [dependencies.approx]
 package = "approx"
@@ -33,32 +33,28 @@ version = "=0.5.1"
 
 [dependencies.async_recursion]
 package = "async-recursion"
-version = "=1.0.5"
+version = "=1.1.1"
 
 [dependencies.async_trait]
 package = "async-trait"
-version = "=0.1.77"
-
-[dependencies.atty]
-package = "atty"
-version = "=0.2.14"
+version = "=0.1.83"
 
 [dependencies.autocfg]
 package = "autocfg"
-version = "=1.1.0"
+version = "=1.4.0"
 
 [dependencies.axum]
 package = "axum"
-version = "=0.7.4"
+version = "=0.7.9"
 features = ["http1", "http2", "json", "multipart", "ws"]
 
 [dependencies.base64]
 package = "base64"
-version = "=0.21.7"
+version = "=0.22.1"
 
 [dependencies.bitflags]
 package = "bitflags"
-version = "=2.4.2"
+version = "=2.6.0"
 
 [dependencies.block_buffer]
 package = "block-buffer"
@@ -70,11 +66,11 @@ version = "=1.5.0"
 
 [dependencies.bytes]
 package = "bytes"
-version = "=1.5.0"
+version = "=1.9.0"
 
 [dependencies.cc]
 package = "cc"
-version = "=1.0.83"
+version = "=1.2.2"
 
 [dependencies.cfg_if]
 package = "cfg-if"
@@ -82,12 +78,12 @@ version = "=1.0.0"
 
 [dependencies.chrono]
 package = "chrono"
-version = "=0.4.34"
+version = "=0.4.38"
 features = ["serde"]
 
 [dependencies.clap]
 package = "clap"
-version = "=4.5.1"
+version = "=4.5.21"
 features = ["unstable-doc"]
 
 [dependencies.crossbeam]
@@ -96,23 +92,19 @@ version = "=0.8.4"
 
 [dependencies.crossbeam_channel]
 package = "crossbeam-channel"
-version = "=0.5.11"
-
-[dependencies.crossbeam_epoch]
-package = "crossbeam-epoch"
-version = "=0.9.18"
+version = "=0.5.13"
 
 [dependencies.crossbeam_utils]
 package = "crossbeam-utils"
-version = "=0.8.19"
+version = "=0.8.20"
 
 [dependencies.csv]
 package = "csv"
-version = "=1.3.0"
+version = "=1.3.1"
 
 [dependencies.data_encoding]
 package = "data-encoding"
-version = "=2.5.0"
+version = "=2.6.0"
 
 [dependencies.digest]
 package = "digest"
@@ -120,19 +112,20 @@ version = "=0.10.7"
 
 [dependencies.either]
 package = "either"
-version = "=1.10.0"
+version = "=1.13.0"
+features = ["serde"]
 
 [dependencies.env_logger]
 package = "env_logger"
-version = "=0.11.2"
+version = "=0.11.5"
 
-[dependencies.error_chain]
-package = "error-chain"
-version = "=0.12.4"
+[dependencies.fastrand]
+package = "fastrand"
+version = "=2.2.0"
 
 [dependencies.flate2]
 package = "flate2"
-version = "=1.0.28"
+version = "=1.0.35"
 
 [dependencies.fnv]
 package = "fnv"
@@ -140,41 +133,41 @@ version = "=1.0.7"
 
 [dependencies.futures]
 package = "futures"
-version = "=0.3.30"
+version = "=0.3.31"
 features = ["async-await", "compat", "executor", "io-compat", "std", "thread-pool"]
 
 [dependencies.futures_channel]
 package = "futures-channel"
-version = "=0.3.30"
+version = "=0.3.31"
 
 [dependencies.futures_core]
 package = "futures-core"
-version = "=0.3.30"
+version = "=0.3.31"
 
 [dependencies.futures_io]
 package = "futures-io"
-version = "=0.3.30"
+version = "=0.3.31"
 
 [dependencies.futures_sink]
 package = "futures-sink"
-version = "=0.3.30"
+version = "=0.3.31"
 
 [dependencies.futures_task]
 package = "futures-task"
-version = "=0.3.30"
+version = "=0.3.31"
 
 [dependencies.futures_util]
 package = "futures-util"
-version = "=0.3.30"
+version = "=0.3.31"
 
 [dependencies.generic_array]
 package = "generic-array"
-version = "=1.0.0"
+version = "=1.1.1"
 features = ["alloc", "const-default", "faster-hex", "internals", "serde", "zeroize"]
 
 [dependencies.getrandom]
 package = "getrandom"
-version = "=0.2.12"
+version = "=0.2.15"
 
 [dependencies.glob]
 package = "glob"
@@ -182,56 +175,60 @@ version = "=0.3.1"
 
 [dependencies.hashbrown]
 package = "hashbrown"
-version = "=0.14.3"
+version = "=0.15.2"
 
 [dependencies.heck]
 package = "heck"
-version = "=0.4.1"
+version = "=0.5.0"
 
 [dependencies.http]
 package = "http"
-version = "=1.0.0"
+version = "=1.1.0"
 
 [dependencies.hyper]
 package = "hyper"
-version = "=1.1.0"
+version = "=1.5.1"
 features = ["full"]
 
 [dependencies.idna]
 package = "idna"
-version = "=0.5.0"
+version = "=1.0.3"
 
 [dependencies.image]
 package = "image"
-version = "=0.24.8"
+version = "=0.25.5"
 
 [dependencies.indexmap]
 package = "indexmap"
-version = "=2.2.3"
+version = "=2.7.0"
 
 [dependencies.itertools]
 package = "itertools"
-version = "=0.12.1"
+version = "=0.13.0"
 
 [dependencies.itoa]
 package = "itoa"
-version = "=1.0.10"
+version = "=1.0.14"
 
 [dependencies.lazy_static]
 package = "lazy_static"
-version = "=1.4.0"
+version = "=1.5.0"
 
 [dependencies.libc]
 package = "libc"
-version = "=0.2.153"
+version = "=0.2.167"
+
+[dependencies.linux_raw_sys]
+package = "linux-raw-sys"
+version = "=0.6.5"
 
 [dependencies.lock_api]
 package = "lock_api"
-version = "=0.4.11"
+version = "=0.4.12"
 
 [dependencies.log]
 package = "log"
-version = "=0.4.20"
+version = "=0.4.22"
 
 [dependencies.log4rs]
 package = "log4rs"
@@ -239,7 +236,7 @@ version = "=1.3.0"
 
 [dependencies.memchr]
 package = "memchr"
-version = "=2.7.1"
+version = "=2.7.4"
 
 [dependencies.memmap]
 package = "memmap"
@@ -247,7 +244,7 @@ version = "=0.7.0"
 
 [dependencies.memoffset]
 package = "memoffset"
-version = "=0.9.0"
+version = "=0.9.1"
 
 [dependencies.mime]
 package = "mime"
@@ -255,20 +252,20 @@ version = "=0.3.17"
 
 [dependencies.miniz_oxide]
 package = "miniz_oxide"
-version = "=0.7.2"
+version = "=0.8.0"
 
 [dependencies.mio]
 package = "mio"
-version = "=0.8.10"
+version = "=1.0.3"
 features = ["net", "os-ext", "os-poll"]
 
 [dependencies.nalgebra]
 package = "nalgebra"
-version = "=0.32.4"
+version = "=0.33.2"
 
 [dependencies.ndarray]
 package = "ndarray"
-version = "=0.15.6"
+version = "=0.16.1"
 
 [dependencies.nom]
 package = "nom"
@@ -276,7 +273,7 @@ version = "=7.1.3"
 
 [dependencies.num]
 package = "num"
-version = "=0.4.1"
+version = "=0.4.3"
 
 [dependencies.num_cpus]
 package = "num_cpus"
@@ -288,19 +285,20 @@ version = "=0.1.46"
 
 [dependencies.num_traits]
 package = "num-traits"
-version = "=0.2.18"
+version = "=0.2.19"
 
 [dependencies.once_cell]
 package = "once_cell"
-version = "=1.19.0"
+version = "=1.20.2"
 
 [dependencies.parking_lot]
 package = "parking_lot"
-version = "=0.12.1"
+version = "=0.12.3"
+features = ["arc_lock", "deadlock_detection", "serde"]
 
 [dependencies.parking_lot_core]
 package = "parking_lot_core"
-version = "=0.9.9"
+version = "=0.9.10"
 
 [dependencies.percent_encoding]
 package = "percent-encoding"
@@ -308,11 +306,11 @@ version = "=2.3.1"
 
 [dependencies.petgraph]
 package = "petgraph"
-version = "=0.6.4"
+version = "=0.6.5"
 
 [dependencies.pin_project_lite]
 package = "pin-project-lite"
-version = "=0.2.13"
+version = "=0.2.15"
 
 [dependencies.pin_utils]
 package = "pin-utils"
@@ -320,24 +318,24 @@ version = "=0.1.0"
 
 [dependencies.pkg_config]
 package = "pkg-config"
-version = "=0.3.30"
+version = "=0.3.31"
 
 [dependencies.postgres]
 package = "postgres"
-version = "=0.19.7"
+version = "=0.19.9"
 
 [dependencies.ppv_lite86]
 package = "ppv-lite86"
-version = "=0.2.17"
+version = "=0.2.20"
 
 [dependencies.proc_macro2]
 package = "proc-macro2"
-version = "=1.0.78"
+version = "=1.0.92"
 features = ["span-locations"]
 
 [dependencies.quote]
 package = "quote"
-version = "=1.0.35"
+version = "=1.0.37"
 
 [dependencies.rand]
 package = "rand"
@@ -359,23 +357,23 @@ version = "=0.4.3"
 
 [dependencies.rayon]
 package = "rayon"
-version = "=1.8.1"
+version = "=1.10.0"
 
 [dependencies.regex]
 package = "regex"
-version = "=1.10.3"
+version = "=1.11.1"
 
 [dependencies.regex_automata]
 package = "regex-automata"
-version = "=0.4.5"
+version = "=0.4.9"
 
 [dependencies.regex_syntax]
 package = "regex-syntax"
-version = "=0.8.2"
+version = "=0.8.5"
 
 [dependencies.reqwest]
 package = "reqwest"
-version = "=0.11.24"
+version = "=0.12.9"
 features = ["blocking", "cookies", "json", "multipart"]
 
 [dependencies.ring]
@@ -384,16 +382,20 @@ version = "=0.17.8"
 
 [dependencies.rusqlite]
 package = "rusqlite"
-version = "=0.31.0"
+version = "=0.32.1"
 features = ["bundled-full"]
 
 [dependencies.rustc_version]
 package = "rustc_version"
-version = "=0.4.0"
+version = "=0.4.1"
+
+[dependencies.rustix]
+package = "rustix"
+version = "=0.38.41"
 
 [dependencies.ryu]
 package = "ryu"
-version = "=1.0.17"
+version = "=1.0.18"
 
 [dependencies.same_file]
 package = "same-file"
@@ -409,20 +411,20 @@ version = "=0.6.0"
 
 [dependencies.semver]
 package = "semver"
-version = "=1.0.22"
+version = "=1.0.23"
 
 [dependencies.serde]
 package = "serde"
-version = "=1.0.197"
+version = "=1.0.215"
 features = ["derive", "rc"]
 
 [dependencies.serde_derive]
 package = "serde_derive"
-version = "=1.0.197"
+version = "=1.0.215"
 
 [dependencies.serde_json]
 package = "serde_json"
-version = "=1.0.114"
+version = "=1.0.133"
 features = ["raw_value"]
 
 [dependencies.sha2]
@@ -435,45 +437,45 @@ version = "=0.4.9"
 
 [dependencies.smallvec]
 package = "smallvec"
-version = "=1.13.1"
+version = "=1.13.2"
 
 [dependencies.socket2]
 package = "socket2"
-version = "=0.5.5"
+version = "=0.5.8"
 features = ["all"]
+
+[dependencies.spin]
+package = "spin"
+version = "=0.9.8"
+
+[dependencies.sptr]
+package = "sptr"
+version = "=0.3.2"
 
 [dependencies.strsim]
 package = "strsim"
-version = "=0.11.0"
+version = "=0.11.1"
 
 [dependencies.syn]
 package = "syn"
-version = "=2.0.50"
+version = "=2.0.90"
 features = ["extra-traits", "fold", "full", "visit", "visit-mut"]
 
 [dependencies.tar]
 package = "tar"
-version = "=0.4.40"
+version = "=0.4.43"
 
 [dependencies.tempfile]
 package = "tempfile"
-version = "=3.10.0"
-
-[dependencies.termcolor]
-package = "termcolor"
-version = "=1.4.1"
-
-[dependencies.textwrap]
-package = "textwrap"
-version = "=0.16.1"
+version = "=3.14.0"
 
 [dependencies.thiserror]
 package = "thiserror"
-version = "=1.0.57"
+version = "=2.0.3"
 
 [dependencies.thiserror_impl]
 package = "thiserror-impl"
-version = "=1.0.57"
+version = "=2.0.3"
 
 [dependencies.threadpool]
 package = "threadpool"
@@ -481,33 +483,38 @@ version = "=1.8.1"
 
 [dependencies.time]
 package = "time"
-version = "=0.3.34"
+version = "=0.3.36"
 
 [dependencies.tinyvec]
 package = "tinyvec"
-version = "=1.6.0"
-features = ["alloc", "grab_spare_slice", "rustc_1_40", "rustc_1_55", "serde", "std"]
+version = "=1.8.0"
+features = ["alloc", "grab_spare_slice", "rustc_1_55", "serde", "std"]
 
 [dependencies.tokio]
 package = "tokio"
-version = "=1.36.0"
+version = "=1.41.1"
 features = ["full", "test-util"]
 
 [dependencies.tokio_util]
 package = "tokio-util"
-version = "=0.7.10"
+version = "=0.7.12"
+features = ["full"]
 
 [dependencies.toml]
 package = "toml"
-version = "=0.8.10"
+version = "=0.8.19"
 
 [dependencies.tracing]
 package = "tracing"
-version = "=0.1.40"
+version = "=0.1.41"
 
 [dependencies.tracing_core]
 package = "tracing-core"
-version = "=0.1.32"
+version = "=0.1.33"
+
+[dependencies.trpl]
+package = "trpl"
+version = "=0.2.0"
 
 [dependencies.typenum]
 package = "typenum"
@@ -516,42 +523,50 @@ features = ["const-generics", "i128"]
 
 [dependencies.unicode_bidi]
 package = "unicode-bidi"
-version = "=0.3.15"
+version = "=0.3.17"
 
 [dependencies.unicode_ident]
 package = "unicode-ident"
-version = "=1.0.12"
+version = "=1.0.14"
 
 [dependencies.unicode_normalization]
 package = "unicode-normalization"
-version = "=0.1.22"
+version = "=0.1.24"
 
 [dependencies.unicode_segmentation]
 package = "unicode-segmentation"
-version = "=1.11.0"
+version = "=1.12.0"
 
 [dependencies.unicode_width]
 package = "unicode-width"
-version = "=0.1.11"
+version = "=0.2.0"
 
 [dependencies.unicode_xid]
 package = "unicode-xid"
-version = "=0.2.4"
+version = "=0.2.6"
 
 [dependencies.url]
 package = "url"
-version = "=2.5.0"
+version = "=2.5.4"
 features = ["serde"]
 
 [dependencies.uuid]
 package = "uuid"
-version = "=1.7.0"
+version = "=1.11.0"
 features = ["serde", "v1", "v3", "v4", "v5", "v6", "v7", "v8"]
 
 [dependencies.version_check]
 package = "version_check"
-version = "=0.9.4"
+version = "=0.9.5"
 
 [dependencies.walkdir]
 package = "walkdir"
-version = "=2.4.0"
+version = "=2.5.0"
+
+[dependencies.windows_sys]
+package = "windows-sys"
+version = "=0.59.0"
+
+[dependencies.windows_x86_64_msvc]
+package = "windows_x86_64_msvc"
+version = "=0.52.6"
